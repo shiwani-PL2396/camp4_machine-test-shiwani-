@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airline_Management", "Airline_Management\Airline_Management.csproj", "{433AAF3A-7E9D-4549-A784-57632EFFF2B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		AdminService.cs = AdminService.cs
+		AirportService.cs = AirportService.cs
+		CityService.cs = CityService.cs
+		CountryService.cs = CountryService.cs
+		FlightService.cs = FlightService.cs
+		IAdminService.cs = IAdminService.cs
+		IAirportService.cs = IAirportService.cs
+		ICityService.cs = ICityService.cs
+		ICountryService.cs = ICountryService.cs
+		IFlightService.cs = IFlightService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{63584695-327F-4811-9033-805332E6FA31}"
+	ProjectSection(SolutionItems) = preProject
+		Admin.cs = Admin.cs
+		Airport.cs = Airport.cs
+		City.cs = City.cs
+		Country.cs = Country.cs
+		Flight.cs = Flight.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_Connection", "DB_Connection\DB_Connection.csproj", "{5E3FD9BD-7238-44F8-AF6C-AEAC54833FA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UTILS", "UTILS", "{3CC73222-E958-4FC8-91BD-3F92624F5A5E}"
+	ProjectSection(SolutionItems) = preProject
+		Validators.cs = Validators.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{E15AAD8E-1147-45E2-B049-8067BA5C159E}"
+	ProjectSection(SolutionItems) = preProject
+		AdminRepository.cs = AdminRepository.cs
+		AirportRepository.cs = AirportRepository.cs
+		CityRepository.cs = CityRepository.cs
+		CountryRepository.cs = CountryRepository.cs
+		FlightRepository.cs = FlightRepository.cs
+		IAdminRepository.cs = IAdminRepository.cs
+		IAirportRepository.cs = IAirportRepository.cs
+		ICityRepository.cs = ICityRepository.cs
+		ICountryRepository.cs = ICountryRepository.cs
+		IFlightRepository.cs = IFlightRepository.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433AAF3A-7E9D-4549-A784-57632EFFF2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433AAF3A-7E9D-4549-A784-57632EFFF2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433AAF3A-7E9D-4549-A784-57632EFFF2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433AAF3A-7E9D-4549-A784-57632EFFF2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3FD9BD-7238-44F8-AF6C-AEAC54833FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3FD9BD-7238-44F8-AF6C-AEAC54833FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3FD9BD-7238-44F8-AF6C-AEAC54833FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3FD9BD-7238-44F8-AF6C-AEAC54833FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E64B15-2E3C-4307-8999-67F78A250CF9}
+	EndGlobalSection
+EndGlobal
